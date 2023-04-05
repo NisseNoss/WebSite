@@ -8,10 +8,9 @@ Table of contents
   2.1 Logo
   2.2 Icon
 
-3
+3 Intro
 
 */
-
 
 
 // 1 General
@@ -41,13 +40,15 @@ $coral: #FA824C;
 
 // 1.4 Utility Classes
 
+
+
 // 2 Header
 
 #header {
   width: 100%;
   display: flex;
   justify-content: space-around;
-
+  margin: 20px 0;
 
   // 2.1 Logo
   #logo {
@@ -58,12 +59,66 @@ $coral: #FA824C;
   // 2.2 Icon
   #icon
   {
+    cursor: pointer;
     margin: 13px 0 0 0;
     font-size: 50px;
     font-variation-settings:
             'FILL' 0,
-            'wght' 400,
+            'wght' 500,
             'GRAD' 0,
             'opsz' 48
+  }
+}
+
+// 3 Intro
+
+#intro {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  border-color: $raisin;
+  border-style: solid none;
+  border-width: 1px;
+  height: 600px;
+
+  #introtext {
+    height: 450px;
+    width: 30%;
+    margin: 75px 20px 75px 0;
+    border: 2px solid $raisin;
+  }
+
+  #intropic {
+    width: 50%;
+    border-color: $raisin;
+  border-style: none none none solid;
+  }
+}
+
+// test
+#colors {
+  display: flex;
+  height: 300px;
+  margin: 30px 0 0 0;
+
+  .color1 {
+    width: 20%;
+    background-color: $tBlue;
+  }
+  .color2 {
+    width: 20%;
+    background-color: $lapiz;
+  }
+  .color3 {
+    width: 20%;
+    background-color: $raisin;
+  }
+  .color4 {
+    width: 20%;
+    background-color: $powder;
+  }
+  .color5 {
+    width: 20%;
+    background-color: $coral;
   }
 }
