@@ -4,11 +4,21 @@ Table of contents
   1.1 Imports
   1.2 Variables
   1.3 Global
+
 2 Header
   2.1 Logo
   2.2 Icon
 
 3 Intro
+  3.1 Intro Text
+    3.1.1 h3
+    3.1.2 p
+    3.1.3 link
+  3.2 Intro Img
+    3.2.1 Img
+
+4 Bio
+  4.1 Picture frame
 
 */
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
@@ -68,9 +78,10 @@ Table of contents
 #intro #introtext a {
   font-size: 1.3rem;
   transition: 0.1s;
+  color: #38608F;
 }
 #intro #introtext a:hover {
-  border-bottom: 2px solid #342E37;
+  border-bottom: 2px solid #38608F;
 }
 #intro #intropic {
   width: 55%;
@@ -80,7 +91,14 @@ Table of contents
 #intro #intropic img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#bio {
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid #38608F;
 }
 
 #colors {
@@ -107,6 +125,4 @@ Table of contents
 #colors .color5 {
   width: 20%;
   background-color: #FA824C;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
