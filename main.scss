@@ -38,7 +38,8 @@ $coral: #FA824C;
 
 
 // 1.3 Global
-*{
+*
+{
   background-color: $powder;
   margin: 0;
   padding: 0;
@@ -54,14 +55,16 @@ $coral: #FA824C;
 
 // 2 Header
 
-#header {
+#header
+{
   width: 100%;
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
 
   // 2.1 Logo
-  #logo {
+  #logo
+  {
     margin: 10px 0 0 0;
     font-size: 2.6rem;
   }
@@ -82,7 +85,8 @@ $coral: #FA824C;
 
 // 3 Intro
 
-#intro {
+#intro
+{
   display: flex;
   justify-content: flex-end;
   width: 100%;
@@ -92,7 +96,8 @@ $coral: #FA824C;
   height: 600px;
 
   // 3.1 Intro text
-  #introtext {
+  #introtext
+  {
     height: 450px;
     width: 25%;
     margin: 75px 12% 75px 0;
@@ -126,7 +131,8 @@ $coral: #FA824C;
   }
 
   // 3.2 Intro img
-  #intropic {
+  #intropic
+  {
     width: 55%;
     border-color: $raisin;
     border-style: none none none solid;
@@ -143,22 +149,76 @@ $coral: #FA824C;
 
 // 4 Bio
 
-#bio {
+#bio
+{
+  margin: 50px auto auto auto;
   display: flex;
-  width: 100%;
-  height: 500px;
-  border-bottom: 2px solid $lapiz;
+  width: 80%;
+  height: auto;
+  //border-bottom: 2px solid $lapiz;
+  padding: 0 0 5rem 0;
 
-  #bio-imgcolor {
-    height: 100px;
-    border: 2px solid $lapiz;
+  // 4.1 img background
+  #bio-imgback
+  {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 20rem;
+    //border: 2px solid $raisin;
+    background-color: $tBlue;
+    border-radius: 1rem;
+
+    // 4.2 img
+    img
+    {
+      margin: 1.5rem 0 0 0;
+      //border: 1px solid $raisin;
+      width: 300px;
+      height: 225px;
+    }
   }
 
-  #bio-text{
-    height: 100px;
-    border: 2px solid $lapiz;
+  // 4.2 Text
+  #bio-text
+  {
+    margin: 0 0 0 10rem;
+    width: 30rem;
+    height: 700px;
+    border: 2px solid $raisin;
   }
 }
+
+// 5 Projects
+#projects {
+
+  display: flex;
+  width: 85%;
+  margin: auto;
+  background-color: $tBlue;
+  height: 500px;
+  //TODO Add vertical order
+
+  // 5.1 Header
+  #project-head
+
+  {
+
+  }
+
+  // 5.2 cards
+  #project-card
+    //TODO Flex that boi
+  {
+
+    div
+      // TODO Design Cards
+    {
+
+    }
+  }
+}
+
 
 // test
 #colors {
