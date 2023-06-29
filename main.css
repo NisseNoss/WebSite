@@ -123,11 +123,41 @@ Table of contents
 
 #projects {
   display: flex;
-  width: 85%;
+  flex-direction: column;
+  width: 100%;
   margin: auto;
-  background-color: #3C91E6;
-  height: 500px;
+  background-color: #38608F;
+  height: auto;
 }
+#projects #project-head {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: transparent;
+}
+#projects #project-head h3 {
+  background-color: transparent;
+  margin: auto;
+  font-size: 3rem;
+  color: #FA824C;
+}
+#projects #project-head p {
+  background-color: transparent;
+  margin: auto;
+  color: #FAFFFD;
+  font-size: 1.3rem;
+}
+#projects #project-card {
+  margin: 2rem;
+  display: flex;
+  background-color: transparent;
+}
+#projects #project-card div {
+  width: 300px;
+  height: 400px;
+  background-color: #FAFFFD;
+}
+
 #colors {
   display: flex;
   height: 300px;

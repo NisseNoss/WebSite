@@ -193,28 +193,52 @@ $coral: #FA824C;
 #projects {
 
   display: flex;
-  width: 85%;
+  flex-direction: column;
+  width: 100%;
   margin: auto;
-  background-color: $tBlue;
-  height: 500px;
-  //TODO Add vertical order
+  background-color: $lapiz;
+  height: auto;
 
   // 5.1 Header
   #project-head
 
   {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
 
+    h3
+    {
+      background-color: transparent;
+      margin: auto;
+      font-size: 3rem;
+      color: $coral;
+    }
+    p
+    {
+      background-color: transparent;
+      margin: auto;
+      color: $powder ;
+      font-size: 1.3rem;
+    }
   }
 
   // 5.2 cards
   #project-card
     //TODO Flex that boi
   {
+    margin: 2rem;
+    display: flex;
+    background-color: transparent;
+
 
     div
       // TODO Design Cards
     {
-
+      width: 300px;
+      height: 400px;
+      background-color: $powder;
     }
   }
 }
