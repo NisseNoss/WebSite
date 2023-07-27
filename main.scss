@@ -19,6 +19,14 @@ Table of contents
 
 4 Bio
   4.1 Picture frame
+    4.2.1 Img
+  4.3 text
+
+5 Projects
+  5.1 Header
+    5.1.1 h3
+    5.1.2 p
+  5.2 cards
 
 */
 
@@ -169,7 +177,7 @@ $coral: #FA824C;
     background-color: $tBlue;
     border-radius: 1rem;
 
-    // 4.2 img
+    // 4.2.1 img
     img
     {
       margin: 1.5rem 0 0 0;
@@ -179,7 +187,7 @@ $coral: #FA824C;
     }
   }
 
-  // 4.2 Text
+  // 4.3 Text
   #bio-text
   {
     margin: 0 0 0 10rem;
@@ -208,6 +216,7 @@ $coral: #FA824C;
     width: 100%;
     background-color: transparent;
 
+    // 5.1.1 h3
     h3
     {
       background-color: transparent;
@@ -215,6 +224,7 @@ $coral: #FA824C;
       font-size: 3rem;
       color: $coral;
     }
+    // 5.1.2 p
     p
     {
       background-color: transparent;
